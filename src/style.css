@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&family=Poppins:wght@300;400&family=Quicksand:wght@700&display=swap');
+div {
+    height: 450px;
+    width: 220px;
+    color:rgb(248, 244, 244);
+    padding: 50px;
+    text-decoration-style: solid;
+    line-height: 25px;
+    font-size:110%;
+   
+}
+
+div button{
+    text-align: center;
+
+}
+
+button{
+    width: 150px;
+    height:50px;
+    border-radius: 22px;
+    border:1px solid white;
+    color:rgba(230, 155, 18);
+    font-size:90%;
+}
+
+.btn_2{ 
+    color: rgb(12, 104, 104);
+
+}
+
+.btn_1{ 
+     color: rgb(18, 53, 50);
+    }
+
+
+p{
+   padding: 50px 0px 100px 0px; 
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-top-right-radius: 10px;
+    /* margin-top: 120px; */
+}
+div button:hover{
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+
+}
+.btn_1:hover{
+    color:white;
+}
+.btn_2:hover{
+    color:white;
+}
+div:first-child{
+    background-color: rgb(230, 155, 18);
+    /* border-radius: 10px 0px 0px 10px;     */
+}
+
+div:nth-child(2){
+    background-color: rgb(12, 104, 104);
+}
+div:last-child{
+    background-color: rgb(18, 53, 50);
+    /* border-radius: 0px 10px 10px 0px; */
+}
