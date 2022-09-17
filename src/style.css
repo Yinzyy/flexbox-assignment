@@ -78,3 +78,9 @@ div:last-child{
     background-color: hsl(179, 100%, 13%);
     border-radius: 0px 10px 10px 0px;
 }
+@media (max-width:768px){
+  main{flex-direction: column;}
+  div:first-child{border-radius: 10px 10px 0px 0px;}
+  div:last-child{border-radius: 0px 0px 10px 10px;}
+
+}
